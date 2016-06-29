@@ -1,0 +1,42 @@
+#ifndef MAGICNUMBERS_H
+#define MAGICNUMBERS_H
+
+#define PASSWORD "<UNSET>"
+#define BAD_PORT_ARG "<UNSET>"
+#define USER_AGENT "<UNSET>"
+
+#define MAX_STATIC_BUFFER_SIZE 1024
+
+#define DEFAULT_PORT 21
+
+#define USERNAME "anonymous"
+
+#define ROBOTS_TXT "robots.txt"
+
+#define STDIN_TIMEOUT 3
+#define DEFAULT_MAX_CONCUR_CONN 700
+#define READ_TIMEOUT 8
+#define STATUS_INTERVAL 5 //seconds
+
+#define DEFAULT_OUTPUT_DIR "testOutput/noScript/"
+
+#undef REPLY_CODE_STRICT
+#define FOLLOW_LINKS
+
+#define MAX_CTRL_AMT 4096
+#define MAX_DATA_AMT 1024 * 1024 * 4 // 4 MB
+#define MAX_ROBOTS_SIZE 500000
+#define DEFAULT_MAX_REQ_PER_SEC 2
+#define DEFAULT_MAX_REQ_PER_IP 1000
+#define REQ_LIMIT_NOTIFY_INTERVAL 10
+
+#define REPLY_CODE_SIZE 4
+#define STR_MATCH 0
+
+#define MAX_BANNER_SIZE 1024
+
+#define MAX_PEM_CERT_SIZE 1024 * 16 // 16k
+
+#define LIST_ERROR_CUTOFF 6
+#define NUMBER_ALLOWED_LIES 6
+#endif
